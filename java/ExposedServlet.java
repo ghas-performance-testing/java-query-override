@@ -37,12 +37,6 @@ public class ExposedServlet extends HttpServlet {
 		response.getOutputStream().write(request.getPathInfo().getBytes());
 	}
 	
-
-
-
-
-
-
 	/**
 	 * Replace special characters in the given text such that it can
 	 * be inserted into an HTML file and not be interpreted as including
