@@ -2,7 +2,7 @@
  * @name Customized Cross-site scripting
  * @description Like the default query, but without internal sources
  * @kind path-problem
- * @problem.severity error
+ * @problem.severity warning
  * @precision high
  * @id java/custom-xss
  * @tags security
